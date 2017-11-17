@@ -1,0 +1,65 @@
+body {
+	background: url(images/tree.jpg) center center fixed;
+	background-size: cover;
+	color: white;
+}
+
+#header {
+	text-align: center;
+	font-size: 7vw;
+	
+}
+
+#lap {
+	text-align: right;
+	font-size: 4vw;
+}
+
+#time {
+	text-align: center;
+	font-size: 10vw;
+}
+
+/*button controls*/
+#controlsContainer {
+	margin: 10px 0 100px;
+	
+}
+
+.control {
+	color: white;
+	text-align: center;
+	height: 10vw;
+	width: 10vw;
+	border-radius: 50%;
+	padding: 20% 0;
+	font-size: 2.5vw;
+	background-color: #33bbc6;
+	cursor: pointer;
+}
+
+.control:hover {
+	background-color: white;
+	color: #33bbc6;
+}
+
+#laps {
+	max-height: 270px;
+	overflow-y: scoll;
+}
+
+.lap {
+	border-bottom: 1px solid white;
+	height: 50px;
+	margin: 15px;
+}
+
+.lapTitle {
+	font-size: 2em;
+	float: left;
+}
+
+.lapTime {
+	font-size: 2em;
+	float: right;
+}
